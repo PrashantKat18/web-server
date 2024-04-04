@@ -7,6 +7,7 @@ app.get('',(req,res)=>{
 })
 
 app.get('/about',(req,res)=>{
+  console.log("kk",req.query.name);
   res.send("hello this is about page")
 })
 
